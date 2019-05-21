@@ -6,17 +6,18 @@ SharpMetaModel is inspired by the *[Apache Metamodel](https://metamodel.apache.o
 
 
 
-##Supported databases
+## Supported databases
 SharpMetaModel currently supports the extraction of metamodels from:
 * MySQL
 * MongoDB
 
-##Features
+## Features
 Schema extraction from supported relational databases.
 Schema discovery for supported NoSQL databases.
 
-##Future plans
-SharpMetaModel is planned to support a greater set of features and databases. To name some databases that could be supported:
+## Future plans
+SharpMetaModel is planned to support a greater set of features and databases. 
+Planned database support:
 * PostgreSQL
 * Neo4J
 * MSSQL
