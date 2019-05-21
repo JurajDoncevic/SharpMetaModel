@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SharpMetaModel.Core.ObjectModel.NoSQL.DocumentDB.AggregateValue">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAACA=</HashCode>
+      <FileName>ObjectModel\NoSQL\DocumentDB\AggregateValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharpMetaModel.Core.ObjectModel.NoSQL.DocumentDB.Collection">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIgAAAECAAAAgAAAAAAQAAAAAAAQCAAAAAACAAAA=</HashCode>
+      <FileName>ObjectModel\NoSQL\DocumentDB\Collection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharpMetaModel.Core.ObjectModel.NoSQL.DocumentDB.Database">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIgAAAAAAAEAAAAAAAAQAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>ObjectModel\NoSQL\DocumentDB\Database.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharpMetaModel.Core.ObjectModel.NoSQL.DocumentDB.Document">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAgAAQEAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectModel\NoSQL\DocumentDB\Document.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Collection" />
+      <Property Name="JsonObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SharpMetaModel.Core.ObjectModel.NoSQL.DocumentDB.Index">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAQEAAAAAQAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectModel\NoSQL\DocumentDB\Index.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharpMetaModel.Core.ObjectModel.NoSQL.DocumentDB.JSONObject">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAEAAAAAACAAAAAAAAAAAAwAiAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectModel\NoSQL\DocumentDB\JSONObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Document" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SharpMetaModel.Core.ObjectModel.NoSQL.DocumentDB.Key">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAIAAgAAAAAAAAAAAAAAQAAAIAAgAAAAAgAAAAAgA=</HashCode>
+      <FileName>ObjectModel\NoSQL\DocumentDB\KeyValuePair.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharpMetaModel.Core.ObjectModel.NoSQL.DocumentDB.PrimitiveValue">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAAAA=</HashCode>
+      <FileName>ObjectModel\NoSQL\DocumentDB\PrimitiveValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SharpMetaModel.Core.ObjectModel.NoSQL.DocumentDB.Value">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectModel\NoSQL\DocumentDB\Value.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
