@@ -10,7 +10,6 @@ using System.Linq;
 
 namespace Playground
 {
-    // DataContextFactory.CreateMongoDataContext("ds046037.mlab.com", 46037, "test_db", "test_user", "a123456");
     class Start
     {
         private static IConfiguration _config;
