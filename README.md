@@ -26,6 +26,6 @@ Planned database support:
 * Sqlite
 
 Planned features:
-* Editing the schema (CREATE ALTER)
+* Editing the schema (CREATE, ALTER, DROP...)
 * Query execution
 * OR, OD, OG mapping (maybe?)
